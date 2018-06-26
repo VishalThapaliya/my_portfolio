@@ -1,0 +1,222 @@
+.header-color{
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid{
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.bg-image{
+  height: 250px;
+  padding-top: 5em;
+}
+
+.banner-text{
+  background-color: #4B1248;
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1{
+  font-size: 2.9em;
+  font-weight: bold;
+  color: #ffd194;
+}
+
+.banner-text hr{
+  border-top: 5px dotted #ffd194;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p{
+  color: #ffd194;
+  font-size: 1.2em;
+  padding: 1.6em;
+}
+
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i{
+  color: #ffd194;
+  font-size: 3em;
+  padding: 8px;
+}
+
+.projects-grid{
+  display: flex;
+}
+
+.project-links{
+  color: #fff;
+  text-decoration: none;
+}
+
+.justify-content{
+  text-align: justify !important;
+}
+
+/* ======================= About Me ========================= */
+
+.about-body{
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.about-image{
+  height: 250px;
+  width: 250px;
+  border: 5px solid #0F2027;;
+  border-radius: 50%;
+}
+
+.about-grid{
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.about-grid p{
+  margin: auto;
+  padding-top: 1em;
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+  color: #fff;
+}
+/* ======================== Contact Page =================== */
+
+.contact-body{
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+  background: #0F2027;
+}
+
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: #FAF9F9;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2{
+  font-family: 'Anton', sans-serif;
+  color: #0F2027;;
+}
+
+.profile-image{
+  height: 200px;
+  width: 200px;
+  border: 2px solid #0F2027;;
+  border-radius: 10%;
+}
+
+.profile-body{
+  width: 75%;
+  margin: auto;
+  padding-top: 1em;
+  text-align: justify;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  color: #0F2027;
+}
+
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.listItem-content{
+  font-size: 25px;
+  font-family: 'Anton', sans-serif;
+
+}
+
+.contact-list i{
+  font-size: 40px;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  color: #1D3461;
+}
+
+/* ======================== Resume =============================== */
+
+.resume-right-col{
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  padding: 2em;
+}
+
+.resume-left-col{
+    margin: auto;
+}
+
+.leftSide{
+  text-align: center;
+}
+
+.resume-img{
+  height: 200px;
+  width: 200px;
+  border: 3px solid #0F2027;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.resume-left-col h2{
+  padding-top: 1em;
+}
+
+.resume-left-col h4{
+  color: grey;
+}
+
+.resume-left-col hr{
+  border-top: 3px solid #833fb2;
+  width: 58%;
+}
+
+.resume-right-col hr{
+  border-top: 2px solid #B3FFFC;
+  width: 90%;
+}
